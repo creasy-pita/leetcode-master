@@ -3,7 +3,7 @@ package com.creasypita.leetcode;
 /**
  * Created by lujq on 11/9/2022.
  */
-public class Q242_valid_anagram {
+public class Q0242_valid_anagram {
     public boolean isAnagram(String s, String t) {
         int[] record = new int[26];
 
@@ -26,6 +26,6 @@ public class Q242_valid_anagram {
     public static void main(String[] args) {
         String s = "aee";
         String t = "eae";
-        System.out.println("t is a valid anagram for s:" + new Q242_valid_anagram().isAnagram(s, t));
+        System.out.println("t is a valid anagram for s:" + new Q0242_valid_anagram().isAnagram(s, t));
     }
 }
